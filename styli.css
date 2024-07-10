@@ -1,0 +1,48 @@
+body {
+    background:linear-gradient(60deg,rgb(252, 216, 12),rgb(8, 221, 168));
+    font-family:'Courier New', Courier, monospace
+    display:Georgia, 'Times New Roman', Times, serif
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    margin: 0;
+    
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(145deg, #3df7a9, #fbff00);
+    padding: 100px;
+    border-radius: 40px;
+    box-shadow: 0 50px 100px ;
+    transition: transform 0.30s, box-shadow 0.3s;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgba(230, 3, 180, 0.2);
+}
+
+h1 {
+    color: #1FDE81;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ee3608;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 2px solid #c70a8eda;
+    border-radius: 5px;
+    width: 200px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #fc0831;
+    outline: none;
+}
